@@ -29,6 +29,11 @@ Navigate to the demo directory and install the necessary packages. The packages 
 
 `(.demo)username:~/workspace/zerodb_server $ pip install -r requirements.txt`
 
+At the end of the installation you should have the following being all the packages installed:
+
+`Successfully installed ipython click zerodb pickleshare pathlib2 setuptools traitlets pygments simplegeneric pexpect prompt-toolkit decorator backports.shutil-get-terminal-size zope.lifecycleevent jsonpickle ZEO zc.zlibstorage pycryptodome zope.component zerodbext.catalog six requests zope.index BTrees ZODB cachetools aes256gcm-nacl ecdsa scrypt flask-cors flask zodbpickle zope.event ipython-genutils ptyprocess wcwidth zope.interface transaction persistent zc.lockfile ZConfig zdaemon cffi itsdangerous Werkzeug Jinja2 pycparser MarkupSafe
+Cleaning up...`
+
 
 
 
