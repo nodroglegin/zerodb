@@ -52,8 +52,9 @@ Create a new directory in the root folder the following takes you to the root di
 
 Then create a folder called bin and copy the `zerodb-manage` file into it:
 
-`mkdir bin
-cp zerodb-manage ~/bin`
+`mkdir bin`
+
+`cp zerodb-manage ~/bin`
 
 
 
