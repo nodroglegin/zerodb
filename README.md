@@ -56,6 +56,12 @@ Then create a folder called bin and copy the `zerodb-manage` file into it:
 
 `cp zerodb-manage ~/bin`
 
+Create two new files in the ~/bin directory called zerodb-server (which refers to the run.py file) and zerodb-api (which refers to api.py file). Now the scipts should be setup. Now we are ready to initialise the database:
+
+`(.demo)username:~/workspace/zerodb_server $zerodb-manage init_db`
+
+
+
 
 
 
