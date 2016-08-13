@@ -64,7 +64,7 @@ Press enter to accept root username; and type password.
 
 
 ###Step 5. Run the zerodb server
-To run the server type `zerodb-server' or if the scripts aren't working, go to to directory `zerodb_server/zerdbext/server` and run the python command directly:
+To run the server type `zerodb-server` or if the scripts aren't working, go to to directory `zerodb_server/zerdbext/server` and run the python command directly:
 
 `(.demo)username:~/workspace/zerodb_server/zerodbext/server $ python run.py`
 
