@@ -63,7 +63,23 @@ Create two new files in the ~/bin directory called zerodb-server (which refers t
 Press enter to accept root username; and type password.
 
 
+###Step 5. Run the zerodb server
+To run the server type `zerodb-server' or if the scripts aren't working, go to to directory `zerodb_server/zerdbext/server` and run the python command directly:
 
+`(.demo)username:~/workspace/zerodb_server/zerodbext/server $ python run.py`
+
+Now we are ready to import the data for the test.
+
+###Step 6. Install requirements
+
+`(.demo)username:~/workspace/zerodb_server/demo $ pip install -r requirements.txt`
+
+###Step 7. Run create.py
+
+`(.demo)username:~/workspace/zerodb_server/demo $ python create.py`
+
+Error
+`No handlers could be found for logger "ZEO.zrpc"`
 
 
 
