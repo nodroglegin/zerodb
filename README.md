@@ -84,6 +84,8 @@ At which point I got the following error
 This is because I hadn't updated the passphrase in create.py and demo.py to the passphrase I input during initialisation of the database. Once passphrase is updated, ran fine.
 
 ###Step 8. Run demo.py
+Make sure that zerodb-server (or run.py) is running in a terminal window first. Then in a second terminal window:
+
 `(.demo)username:~/workspace/zerodb_server/demo $ python demo.py`
 
 The output printed to the terminal includes 
