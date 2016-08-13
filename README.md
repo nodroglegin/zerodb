@@ -78,9 +78,20 @@ Now we are ready to import the data for the test.
 
 `(.demo)username:~/workspace/zerodb_server/demo $ python create.py`
 
-Error
+At which point I got the following error
 `No handlers could be found for logger "ZEO.zrpc"`
 
+This is because I hadn't updated the passphrase in create.py and demo.py to the passphrase I input during initialisation of the database. Once passphrase is updated, ran fine.
 
+###Step 8. Run demo.py
+`(.demo)username:~/workspace/zerodb_server/demo $ python demo.py`
+
+The output printed to the terminal includes 
+`connected` - showing a successful connection to the database
+`401` being the number of records
+`[<John Flores who earns $54868>, <John Montgomery who earns $95987>, <John Snellgrove who earns $183333>, <John Saldana who earns $85977>, <John Oliver who earns $143716>, <John Gipson who earns $186082>, <John Bivins who earns $101133>, <John Collins who earns $149628>]` being a search result on "John"
+
+
+Well done! You have successfully got zero-db running on Cloud9.
 
 
