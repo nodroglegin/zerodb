@@ -44,7 +44,7 @@ Unfortunately, this gave me the following error indicating the terminal sripts a
 to fix this, create a file called zerodb-manage containing:
 
 `#!/bin/bash
-python zerodbext/server/manage.py`
+python zerodbext/server/db/manage.py`
 
 Create a new directory in the root folder the following takes you to the root directory
 
@@ -59,6 +59,8 @@ Then create a folder called bin and copy the `zerodb-manage` file into it:
 Create two new files in the ~/bin directory called zerodb-server (which refers to the run.py file) and zerodb-api (which refers to api.py file). Now the scipts should be setup. Now we are ready to initialise the database:
 
 `(.demo)username:~/workspace/zerodb_server $zerodb-manage init_db`
+
+Press enter to accept root username; and type password.
 
 
 
