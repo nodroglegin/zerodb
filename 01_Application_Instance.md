@@ -1,4 +1,4 @@
-# we are first going to create an application instance of Flask following basic factory structure
+We are first going to create an application instance of Flask following basic factory structure
 
 ###Step 1. Create application.py file
 In directory that contains demo.py create a new file called `application.py` containing the following:
