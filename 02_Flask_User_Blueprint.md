@@ -14,7 +14,8 @@ def login():
 
 ###Step 2. Update the application.py file to reference the new blueprint
 
-`from flask import Flask
+`
+from flask import Flask
 
 def create_app():
     app = Flask(__name__)
