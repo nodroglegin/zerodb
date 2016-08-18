@@ -44,7 +44,7 @@ At command line type:
 
 `$ python manage.py runserver`
 
-Which should show something like:
+Which will start the flask program running and should show something like:
 
 `* Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
  * Restarting with stat
