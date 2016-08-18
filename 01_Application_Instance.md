@@ -1,6 +1,6 @@
 # we are first going to create an application instance of Flask following basic factory structure
 
-####Step 1. Create application.py file
+###Step 1. Create application.py file
 In directory that contains demo.py create a new file called `application.py` containing the following:
 
 `from flask import Flask
@@ -11,12 +11,12 @@ def create_app():
     return app
 `
 
-####Step 2. Create settings.py file
+###Step 2. Create settings.py file
 In the same directory create a new file called settings.py which to begin with will only contain:
 
 `DEBUG=True`
 
-####Step 3. Create manage.py file
+###Step 3. Create manage.py file
 In the same directory create a new file called manage.py which contains the folllowing code:
 
 `import os, sys
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     manager.run()
 `
 
-####Step 4. Test that set up has worked
+###Step 4. Test that set up has worked
 At command line type:
 
 `$ python manage.py runserver`
