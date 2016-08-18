@@ -43,3 +43,13 @@ if __name__ == "__main__":
 At command line type:
 
 `$ python manage.py runserver`
+
+Which should show something like:
+
+`* Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 315-548-428
+10.240.0.214 - - [18/Aug/2016 12:33:13] "GET / HTTP/1.1" 404 -
+10.240.0.214 - - [18/Aug/2016 12:33:14] "GET /favicon.ico HTTP/1.1" 404 -
+`
